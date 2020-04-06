@@ -1,0 +1,56 @@
+﻿\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[vietnamese]{babel}
+\title{Assignments Lecture 2}
+\author{Vũ Lê Mai }
+\date{April 2020}
+
+\begin{document}
+
+\maketitle
+
+\subsection*{P2.1}
+\begin{itemize}
+    \item Với augmented matrix ta có thể thực hiện nhân ma trận với tất cả các phép rotate, scale, reflect, shear và thậm chí cả translate (thay vì cộng ma trận) => Thuận tiện cho việc tính toán.
+    \item Thêm nữa nếu chỉ thêm cột b mà không thêm dòng 0..1 ở cuối thì sẽ không thể thực hiện được phép nhân ma trận. Mặt khác, ma trận $nxn$ trở thành $(n+1)x(n+1)$tức là thêm 1 chiều cho vector => Có thể biểu diễn trên không gian $n+1$ chiều.
+\end{itemize}
+
+\subsection*{C2.1}
+    Link colab:\url{ https://colab.research.google.com/drive/1MC0dDzJwrKuBTL4vFk0EpuEEHM8ppVvY}
+    
+\subsection*{E2.3}
+\begin{itemize}
+    \item Nhân ma trận dưới góc nhìn column
+        \begin{figure}[h!]
+        \centering\includegraphics[scale=0.4]{1.PNG}
+        \\Image 1.1 Column\\
+        \end{figure}\\
+        \begin{figure}[h!]
+        \centering\includegraphics[scale=0.4]{2.PNG}
+        \\Image 1.2 Column\\
+        \end{figure}\\
+    
+    \item Nhân ma trận dưới góc nhìn row
+        \begin{figure}[h!]
+        \centering\includegraphics[scale=0.4]{3.PNG}
+        \\Image 2.1 Row\\
+        \end{figure}\\
+       
+        \begin{figure}[h!]
+        \centering\includegraphics[scale=0.4]{4.PNG}
+        \\Image 2.2 Row\\
+        \end{figure}\\
+    
+    \item Nhân ma trận dưới góc nhìn column và row\\
+        \begin{figure}[h!]
+        \centering\includegraphics[scale=0.4]{5.PNG}
+        \\Image 3.1 Column và Row\\
+        \end{figure}\\
+        \begin{figure}[h!]
+        \centering\includegraphics[scale=0.4]{6.PNG}
+        \\Image 3.2 Column và Row\\
+        \end{figure}\\
+\end{itemize}
+
+\end{document}
